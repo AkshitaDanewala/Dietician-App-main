@@ -8,7 +8,7 @@ export default function About() {
 		<div className="py-16  bg-[#F6F5F8] px-4 max-sm:w-full">
 			<div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6 ">
 				<div className="space-y-6 md:space-y-0  lg:space-y-0  sm:space-y-0 md:flex md:gap-6  ">
-					<div className="md:5/12 h-[95vh] max-sm:w-[100%] max-sm:h-[100vh] lg:w-[50%]  ml-10 max-sm:ml-0 ">
+					<div className="md:5/12 h-[95vh] max-sm:w-[100%] max-sm:h-[100vh] lg:w-[50%]  ml-10 max-sm:-ml-8 ">
 						<img className='w-full  h-full object-cover  '
 							src="https://static.wixstatic.com/media/2a1a02_b7200f82e5184dbeac5321d69e69789f~mv2.jpg/v1/fill/w_950,h_1088,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/2a1a02_b7200f82e5184dbeac5321d69e69789f~mv2.jpg"
 							alt="image"
@@ -30,7 +30,7 @@ export default function About() {
 
 						</main>
 					</div>
-					<div className="md:7/12  lg:w-[40%] ml-5">
+					<div className="md:7/12  lg:w-[40%] ml-5 max-sm:w-full max-sm:-ml-1">
 						<img
 							className="h-[90vh] max-sm:w-full max-sm:h-full max-sm:object-contain w-full rounded-[1vw] object-cover"
 							src="https://babashivabramhiji.inextets.online/wp-content/uploads/2024/02/WhatsApp-Image-2024-02-06-at-3.18.05-PM.jpeg"

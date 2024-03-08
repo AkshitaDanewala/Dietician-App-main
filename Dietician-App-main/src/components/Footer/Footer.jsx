@@ -70,7 +70,7 @@ export default function Footer() {
 	 						</li>
 								<li className="mb-4">
 	 							<Link to="/contact" className="hover:underline">
-	 								About
+	 								Contact
 	 							</Link>
 	 						</li>
 							<li className="mb-4">

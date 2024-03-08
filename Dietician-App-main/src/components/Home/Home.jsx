@@ -94,10 +94,9 @@ export default function Home() {
 							target="_blank"
 							href="https://wa.me/+917805806867"
 						>
-							<button className="px-12 max-sm:px-10 py-3 text-white flex items-center gap-4 rounded-full hover:font-medium cursor-pointer hover:translate-y-1	hover:transition-all hover:ease-linear hover:duration-150 transition-all ease-linear duration-150" style={{backgroundColor: "rgb(3 105 161)"}}>
+							<button className="px-12 max-sm:px-10 py-3 text-white flex items-center gap-4 rounded-full hover:font-medium cursor-pointer hover:translate-y-1	hover:transition-all hover:ease-linear hover:duration-150 transition-all ease-linear duration-150 translate-y-1 transition-all ease-linear duration-150 " style={{backgroundColor: "rgb(3 105 161)"}}>
 								Appointment Now
-                {/* bg-blue-700  */}
-                {/* hover:bg-blue-800  */}
+               
 							</button>
 						</a>
 					</div>
@@ -241,7 +240,7 @@ export default function Home() {
 
 
 
-			<div className="h-[100vh] max-sm:h-fit max-sm:flex-col max-sm:items-center w-full flex text-2xl sm:text-5xl py-4  mt-8 sm:px-16 ">
+	<div className="h-[100vh] max-sm:h-fit max-sm:flex-col max-sm:items-center w-full flex text-2xl sm:text-5xl py-4  mt-8 sm:px-16 ">
 				<div className="left w-1/2 max-sm:w-full max-sm:px-6 max-sm:py-8 flex items-center justify-center ">
 					<div className="w-[30vw] max-sm:w-full h-[92vh] max-sm:h-[100vh] overflow-hidden rounded-lg ">
 						<img
@@ -279,7 +278,7 @@ export default function Home() {
 						Get started on your path to wellness today!
 					</p>
 					<a target="_blank" href="https://wa.me/+917805806867">
-						<button className="px-12 py-1 text-white flex items-center gap-4 rounded-full   hover:font-medium cursor-pointer hover:translate-y-1	hover:transition-all hover:ease-linear hover:duration-150  transition-all ease-linear duration-150 " style={{backgroundColor: "rgb(3 105 161)"}}>
+						<button className="px-12 py-1 max-sm:py-3 max-sm:px-10 text-white flex items-center gap-4 rounded-full hover:font-medium cursor-pointer hover:translate-y- hover:transition-all hover:ease-linear hover:duration-150  transition-all ease-linear duration-150 transition-all ease-linear duration-150 translate-y-" style={{backgroundColor: "rgb(3 105 161)"}}>
 
 							<p className="text-3xl max-sm:text-xl">✆</p> Contact Now
 						</button>
@@ -288,14 +287,13 @@ export default function Home() {
 			</div>
 
 
-			<div
-  id="services"
+			<div id="services"
   className="section relative pt-20 pb-8 md:pt-16 md:pb-0 bg-white  "
 >
   <div className="container xl:max-w-6xl mx-auto px-4  max-sm:-mt-12">
     {/* Heading start */}
     <header className="text-center mx-auto mb-12 lg:px-20">
-      <h2 className=" leading-normal mb-2 font-bold text-black text-3xl font-medium">
+      <h2 className=" leading-normal mb-2  text-4xl font-bold text-black font-medium">
         What We Do
       </h2>
       <svg
@@ -332,7 +330,7 @@ export default function Home() {
           style={{ strokeWidth: 2, strokeMiterlimit: 10 }}
         />
       </svg>
-      <p className="text-gray-500  font-light text-xl mx-auto -mt-8 -pb-4">
+      <p className="text-black   text-xl mx-auto -mt-8 -pb-4">
 	  "Transform Your Health: Comprehensive Nutritional Services for Your Unique Journey
       </p>
     </header>
@@ -348,20 +346,27 @@ export default function Home() {
           animationName: "fadeInUp"
         }}
       >
+
+{/* rgb(240,233,228) */}
+{/* bg-[rgb(123,222,133) grren shade */}
+{/* rgb(153,247,162) */}
+{/* rgb(168,247,176 */}
+{/* rgb(193,250,199) */}
+
         {/* service block */}
-        <div className="py-5 px-5 mb-12 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2 hover:cursor-pointer  shadow-md  rounded-lg hover:shadow-md hover:shadow-slate-300" style={{backgroundColor: "rgb(3 105 161)"}} >
-   
+        <div className="py-5 px-5 mb-12 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2 hover:cursor-pointer  shadow-md  rounded-lg hover:shadow-md hover:shadow-slate-300 bg-gradient-to-r from-[#2BE65A] to-[#7BDE85]"  >
+		{/* style={{backgroundColor: "rgb(3 105 161)"}} */}
 
           <div className="inline-block text-gray-900 mb-4 ">
             {/* icon */}
 		
-			<img src="https://thumbs.dreamstime.com/b/weight-lifter-silhouette-vector-illustration-weightlifting-black-white-background-editable-eps-file-available-59595049.jpg" alt="" className='h-[3rem] w-[3rem] rounded-lg  ' />
+			<img src="https://thumbs.dreamstime.com/b/weight-lifter-silhouette-vector-illustration-weightlifting-black-white-background-editable-eps-file-available-59595049.jpg" alt="" className='h-[3rem] w-[3rem] rounded-lg' />
            
           </div>
-          <h3 className="text-lg  text-white leading-normal mb-2 font-semibold">
+          <h3 className="text-xl font-bold  leading-normal mb-2 ">
           Weight Gain
           </h3>
-          <p className=" text-left text-white ">
+          <p className=" text-left  ">
           Our tailored nutrition plans focus on healthy, sustainable weight gain strategies. With personalized meal plans, expert guidance, and ongoing support, we'll help you achieve your goals and transform your body with confidence.
           </p>
         </div>
@@ -379,7 +384,7 @@ export default function Home() {
         }}
       >
         {/* service block */}
-        <div className="py-5 px-5 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2 hover:cursor-pointer shadow-md  rounded-lg hover:shadow-md hover:shadow-slate-300" style={{backgroundColor: "rgb(3 105 161)"}}>
+        <div className="py-5 px-5 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2 hover:cursor-pointer shadow-md  rounded-lg hover:shadow-md hover:shadow-slate-300 bg-gradient-to-r from-[#2BE65A] to-[#7BDE85]" >
 
           <div className="inline-block text-gray-900 mb-4 bg-white rounded-lg ">
             {/* icon */}
@@ -387,10 +392,10 @@ export default function Home() {
 
 			<img src="https://static.thenounproject.com/png/637323-200.png" alt="" className='h-[3rem] w-[3rem]  ' />
           </div>
-          <h3 className="text-lg text-white leading-normal mb-2 font-semibold">
+          <h3 className="text-xl font-bold leading-normal mb-2 ">
           Weight Loss
           </h3>
-          <p className=" text-left text-white">
+          <p className=" text-left ">
 		   Our comprehensive approach combines personalized meal plans, expert guidance, and ongoing support to help you reach your goals effectively and sustainably. Transform your health and achieve lasting results with us.
           </p>
         </div>
@@ -408,7 +413,7 @@ export default function Home() {
         }}
       >
         {/* service block */}
-        <div className="py-5 px-5 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2 hover:cursor-pointer shadow-md rounded-lg hover:shadow-md hover:shadow-slate-300" style={{backgroundColor: "rgb(3 105 161)"}}>
+        <div className="py-5 px-5 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2 hover:cursor-pointer shadow-md rounded-lg hover:shadow-md hover:shadow-slate-300 bg-gradient-to-r from-[#2BE65A] to-[#7BDE85] " >
           <div className="inline-block text-gray-900 mb-4" >
             {/* icon */}
            
@@ -416,10 +421,10 @@ export default function Home() {
       <img src="https://img.freepik.com/premium-vector/diabetic-diet-glyph-solid-black-illustration_120816-7915.jpg?w=2000" alt="" className='h-[3rem] w-[3rem] rounded-lg  ' />
 
           </div>
-          <h3 className="text-lg  text-white leading-normal mb-2 font-semibold ">
+          <h3 className="text-xl   leading-normal mb-2 font-bold ">
 		  Diabetic Diet
           </h3>
-          <p className="text-left text-white">
+          <p className="text-left ">
 		   Our specialized diabetic diet plans are designed to stabilize blood sugar levels, promote overall health, and enhance quality of life. With personalized guidance and ongoing support, we'll empower you to take control of your health journey.
           </p>
         </div>
@@ -435,17 +440,17 @@ export default function Home() {
         }}
       >
         {/* service block */}
-        <div className="py-5 px-5 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2 hover:cursor-pointer shadow-md rounded-lg hover:shadow-md hover:shadow-slate-30" style={{backgroundColor: "rgb(3 105 161)"}}>
+        <div className="py-5 px-5 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2 hover:cursor-pointer shadow-md rounded-lg hover:shadow-md hover:shadow-slate-300 bg-gradient-to-r from-[#2BE65A] to-[#7BDE85] " >
 
           <div className="inline-block text-gray-900 mb-4 ">
             {/* icon */}
 			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhk_zGmtxTP5w4BIyjMR-YktQqieACfrPxCaJUtEtuXvDBd0Kf26iHwEN2Lv3oNgPxHcs&usqp=CAU" alt="" className='h-[3rem] w-[3rem] rounded-lg  ' />
 
           </div>
-          <h3 className="text-lg text-white leading-normal mb-2 font-semibold">
+          <h3 className="text-xl  leading-normal mb-2 font-bold">
 		  Gym Diet
           </h3>
-          <p className=" text-left text-white">
+          <p className=" text-left ">
 		    Maximize Your Gym Performance with Our  tailored to your fitness goals and activity levels, our expertly crafted gym diets optimize energy, muscle growth, and recovery. Fuel your workouts and achieve peak performance with our personalized guidance and support .
           </p>
         </div>
@@ -463,16 +468,16 @@ export default function Home() {
         }}
       >
         {/* service block */}
-        <div className="py-5 px-5 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2 hover:cursor-pointer shadow-md  rounded-lg hover:shadow-md hover:shadow-slate-300" style={{backgroundColor: "rgb(3 105 161)"}} >
+        <div className="py-5 px-5 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2 hover:cursor-pointer shadow-md  rounded-lg hover:shadow-md hover:shadow-slate-300 bg-gradient-to-r from-[#2BE65A] to-[#95f59f] "  >
           <div className="inline-block text-gray-900 mb-4 " >
             {/* icon */}
            
         <img src="https://static.thenounproject.com/png/2758515-200.png" alt="" className='h-[3rem] w-[3rem] bg-white rounded-lg ' />
           </div>
-          <h3 className="text-lg leading-normal mb-2 font-semibold text-white ">
+          <h3 className="text-xl leading-normal mb-2 font-bold  ">
 		  1 Inch Loss
           </h3>
-          <p className=" text-left text-white">
+          <p className=" text-left ">
           Transform Your Body, One Inch at a Time. Our targeted diet plans are designed to help you shed inches and achieve your body goals. With personalized nutrition guidance and support, you'll see visible results and feel confident in your journey to a slimmer, healthier you.
           </p>
         </div>
@@ -490,17 +495,17 @@ export default function Home() {
         }}
       >
         {/* service block */}
-        <div className="py-5 px-5 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2 hover:cursor-pointer shadow-md  rounded-lg hover:shadow-md hover:shadow-slate-300" style={{backgroundColor: "rgb(3 105 161)"}} >
+        <div className="py-5 px-5 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2 hover:cursor-pointer shadow-md  rounded-lg hover:shadow-md hover:shadow-slate-300 bg-gradient-to-r from-[#2BE65A] to-[#7BDE85]"  >
           
           <div className="inline-block text-gray-900 mb-4">
             {/* icon */}
            
            <img src="https://static.thenounproject.com/png/3342053-200.png" alt="" className='h-[3rem] w-[3rem] bg-white rounded-lg  ' />
           </div>
-          <h3 className="text-lg text-white leading-normal mb-2 font-semibold ">
+          <h3 className="text-xl  leading-normal mb-2 font-bold ">
 		  Virtual Consultations
           </h3>
-          <p className=" text-left text-white">
+          <p className=" text-left ">
 		  Experience Convenient and Personalized Nutrition Guidance from Anywhere. Our virtual consultations offer one-on-one support, tailored meal plans, and expert advice tailored to your unique needs and lifestyle. Start your journey to better health today, no matter where you are.
           </p>
         </div>

@@ -218,7 +218,7 @@ const Navbar = () => {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 relative">
           <img
             src="https://t3.ftcdn.net/jpg/05/99/32/84/360_F_599328438_8IOBA7eB2DfIVXwFZRPcKmJrHCv7yFlJ.jpg"
-            className="h-[10vh] w-[10vw] max-sm:h-[10vh] md:w-[89vw] object-cover object-fit"
+            className="h-[10vh] w-[10vw] max-sm:h-[9vh] max-sm:w-32 object-cover object-fit"
             alt=""
           />
 
