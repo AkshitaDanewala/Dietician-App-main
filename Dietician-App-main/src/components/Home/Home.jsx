@@ -102,7 +102,7 @@ export default function Home() {
 					</div>
 
 					<div className="w-[60%] h-[65vh] max-sm:w-full max-sm:h-[40vh]  max-sm:p-6 max-sm:mb-3 mt-5">
-						<div className="w-full h-full max-sm:w-full max-sm:h-full max-sm:ob bg-teal-700  rounded-[2vw] object-cover max-w-xl mx-auto relative overflow-hidden	">
+						<div className="w-full h-full max-sm:w-full max-sm:h-full max-sm:ob  rounded-[2vw] object-cover max-w-xl mx-auto relative overflow-hidden	">
 							<div className="w-full h-full rounded-[2vw]  sm:h-80">
 								{images.map((image, index) => (
 									<div

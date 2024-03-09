@@ -96,35 +96,38 @@ export default function Footer() {
 		 								WHO Information
 		 							</a>
 		 						</li>
-		 						<li>
-		 							<Link to="/" className="hover:underline">
-		 								Covid-19 Wikipedia
-		 							</Link>
+		 						<li className="mb-4">
+		 							
+									Weight Gain
 		 						</li>
-		 						<li>
-		 							<Link to="/" className="hover:underline">
-		 								Latest Update
-		 							</Link>
+		 						<li className="mb-4">
+		 							
+									Diabetic Diet
+		 						</li>
+
+								 <li className="mb-4">
+		 							
+							      Virtual Consultations
 		 						</li>
 		 					</ul>
 
 				</div>
-				<div className=''>
+				<div className=' w-48'>
 				<p class="font-medium">
 					<h4 className='fontfamily font-bold'>CONTACT INFO</h4>
 				  </p>
 				 
 				  <ul className="text-gray-500 font-medium mt-4">
-								<li className="mb-4">
-								<p>
-									123 Fifth Ave, New York,
-									<br /> NY 12004, United States.
+								<li >
+								<p>123 Fifth Ave, New York,</p>
+									
+									<p > NY 12004, United States.
  							</p>
 							</li>
-								<li className="mb-4">
+								<li className="mt-7">
  							<p>+91 7247629743</p>
 							</li>
-							<li className="mb-4">abcd@gmail.com</li>
+							<li className="mt-5">abcd@gmail.com</li>
 						</ul>
 				</div>
 				
